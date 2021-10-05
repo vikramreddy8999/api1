@@ -1,4 +1,5 @@
 POST http://localhost:3001/register
+Content-Type:applcation/json
 {
   "username": "adam_richard",
   "name": "Adam Richard",
@@ -9,6 +10,7 @@ POST http://localhost:3001/register
 
 ###
 POST http://localhost:3001/login
+Content-Type: application/json
 {
   "username": "adam_richard",
   "password": "richard_567"
